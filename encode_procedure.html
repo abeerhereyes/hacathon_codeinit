@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>encoding_procedure</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='/style.css')}}">
+</head>
+<body>
+<h1>this is your  encoded text {{cypher_output}}</h1>
+<!--<h2>Following is the method used to encrypt your text</h2>-->
+
+
+<!--<h2>Generate the key Square(5×5):</h2>-->
+<h3> The key square is a 5×5 grid of alphabets that acts as the key for encrypting the plaintext. Each of the 25 alphabets
+    must be unique and one letter of the alphabet (usually J) is omitted from the table</h3>
+<h5>the technique used is The PlayFair Cypher . It was the first practical digraph substitution cipher</h5>
+<h5>the key square used here is</h5>
+<p>{{matrix_output_1}}</p>
+<p>{{matrix_output_2}}</p>
+<p>{{matrix_output_3}}</p>
+<p>{{matrix_output_4}}</p>
+<p>{{matrix_output_5}}</p>
+<h4>and the key value used is "Monarchy"</h4>
+<!--<h2>2)Algorithm to encrypt the plain text:</h2>-->
+<!--<p>The plaintext is split into pairs of two letters (digraphs). If there is an odd number of letters,-->
+<!--    a Z is added to the last letter.For example:</p>-->
+
+<h4></h4>
+</body>
+</html>
